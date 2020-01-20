@@ -1,0 +1,68 @@
+#home {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 40px;
+    margin: 40px 60px;
+    height: 80%;
+}
+#home > main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    background: #63432D;
+}
+#home > main aside {
+    margin-bottom: 5px;
+}
+/* 
+    Component Menu
+*/
+#home > aside {
+    background:#63432D;
+}
+
+
+
+
+
+/* 
+    Component Main 
+*/
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: baseline;
+}
+.form-group  label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff ;
+}
+.form-group  input{
+    width: 90%;
+    min-height: 30px;
+}
+#home > main > button {
+    width: 100px;
+    align-self: flex-end;
+    margin-top: 5px;
+}
+
+button.btns{
+    border: 0;
+    border-radius: 2px;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #b38656;
+    color: #fff;
+    cursor: pointer;
+}
+button.btns:hover{
+    border: 5px;
+    background: #7e553a;
+    border-color:#fff;
+}
